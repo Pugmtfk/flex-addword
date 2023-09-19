@@ -45,7 +45,7 @@
             "position": "absolute",
             "size": "70px",
             "offsetStart": "223px",
-            "offsetTop": "2px"
+            "offsetTop": "3px"
           },
           {
             "type": "image",
@@ -53,7 +53,7 @@
             "position": "absolute",
             "size": "70px",
             "offsetStart": "180px",
-            "offsetTop": "6px"
+            "offsetTop": "7px"
           }
         ],
         "backgroundColor": "#0C3AB9",
