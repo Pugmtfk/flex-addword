@@ -1,108 +1,102 @@
 {
-  "line": {
-    "altText": "Flex Message",
-    "contents": {
-      "footer": {
-        "layout": "vertical",
-        "type": "box",
-        "contents": [
-          {
-            "type": "button",
-            "style": "primary",
-            "color": "#0057DD",
-            "action": {
-              "label": "เพิ่มคำเลย",
-              "uri": "http://linecorp.com/",
-              "type": "uri"
-            }
-          }
-        ]
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เพิ่มคำ (คำสั่งลัด)",
+        "size": "20px",
+        "color": "#ffffff",
+        "weight": "bold"
       },
-      "hero": {
-        "backgroundColor": "#0C3AB9",
-        "type": "box",
-        "contents": [
-          {
-            "size": "20px",
-            "type": "text",
-            "weight": "bold",
-            "color": "#ffffff",
-            "text": "เพิ่มคำ (คำสั่งลัด)"
-          },
-          {
-            "size": "50px",
-            "position": "absolute",
-            "offsetTop": "10px",
-            "offsetStart": "-18px",
-            "url": "https://media.discordapp.net/attachments/1130113229700477089/1151420224155963402/Rectangle_360.png",
-            "type": "image"
-          },
-          {
-            "offsetTop": "25px",
-            "url": "https://media.discordapp.net/attachments/1130113229700477089/1151420207655555092/Rectangle_358.png",
-            "type": "image",
-            "offsetStart": "10px",
-            "position": "absolute",
-            "size": "70px"
-          },
-          {
-            "offsetStart": "180px",
-            "offsetTop": "-38px",
-            "position": "absolute",
-            "url": "https://media.discordapp.net/attachments/1130113229700477089/1151418180439388170/Rectangle_364.png",
-            "type": "image",
-            "size": "140px"
-          },
-          {
-            "type": "image",
-            "offsetStart": "223px",
-            "offsetTop": "3px",
-            "position": "absolute",
-            "size": "70px",
-            "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153536906169155624/Group_6569_2.png"
-          },
-          {
-            "offsetTop": "7px",
-            "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153537276161314827/dictionary_1_1.png",
-            "type": "image",
-            "offsetStart": "180px",
-            "size": "70px",
-            "position": "absolute"
-          }
-        ],
-        "paddingBottom": "20px",
-        "paddingTop": "20px",
-        "layout": "vertical",
-        "background": {
-          "angle": "270deg",
-          "endColor": "#0C3AB9",
-          "startColor": "#4470F4",
-          "type": "linearGradient"
-        },
-        "paddingStart": "15px"
+      {
+        "type": "image",
+        "url": "https://media.discordapp.net/attachments/1130113229700477089/1151420224155963402/Rectangle_360.png",
+        "position": "absolute",
+        "size": "50px",
+        "offsetStart": "-18px",
+        "offsetTop": "10px"
       },
-      "type": "bubble",
-      "body": {
-        "layout": "vertical",
-        "contents": [
-          {
-            "contents": [],
-            "type": "text",
-            "weight": "bold",
-            "size": "14px",
-            "text": "กำหนดคำเฉพาะตัว"
-          },
-          {
-            "type": "text",
-            "weight": "bold",
-            "size": "14px",
-            "contents": [],
-            "text": "เพื่อช่วยให้การค้นหาสินค้าง่ายขึ้น"
-          }
-        ],
-        "type": "box"
+      {
+        "type": "image",
+        "url": "https://media.discordapp.net/attachments/1130113229700477089/1151420207655555092/Rectangle_358.png",
+        "position": "absolute",
+        "size": "70px",
+        "offsetStart": "10px",
+        "offsetTop": "25px"
+      },
+      {
+        "type": "image",
+        "url": "https://media.discordapp.net/attachments/1130113229700477089/1151418180439388170/Rectangle_364.png",
+        "position": "absolute",
+        "size": "140px",
+        "offsetStart": "180px",
+        "offsetTop": "-38px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153536906169155624/Group_6569_2.png",
+        "position": "absolute",
+        "size": "70px",
+        "offsetStart": "223px",
+        "offsetTop": "2px"
+      },
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1130113229700477089/1153537276161314827/dictionary_1_1.png",
+        "position": "absolute",
+        "size": "70px",
+        "offsetStart": "180px",
+        "offsetTop": "6px"
       }
-    },
-    "type": "flex"
+    ],
+    "backgroundColor": "#0C3AB9",
+    "paddingTop": "20px",
+    "paddingBottom": "20px",
+    "paddingStart": "15px",
+    "background": {
+      "type": "linearGradient",
+      "angle": "270deg",
+      "startColor": "#4470F4",
+      "endColor": "#0C3AB9"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "กำหนดคำเฉพาะตัว",
+        "contents": [],
+        "size": "14px",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "เพื่อช่วยให้การค้นหาสินค้าง่ายขึ้น",
+        "contents": [],
+        "size": "14px",
+        "weight": "bold"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "เพิ่มคำเลย",
+          "uri": "http://linecorp.com/"
+        },
+        "style": "primary",
+        "color": "#0057DD"
+      }
+    ]
   }
 }
